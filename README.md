@@ -1,4 +1,4 @@
-O programa arbol_binario/sort.c utiliza un árbol binario para ordenar números enteiros.
+Recordando vellos tempos: O programa arbol_binario/sort.c utiliza un árbol binario para ordenar números enteiros.
 
 Compilación:
 
