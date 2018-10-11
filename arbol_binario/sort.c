@@ -102,7 +102,7 @@ void ler_arbol(struct t_nodo *nodo)
 
 void imprimir_uso(char *nom_prog)
 {
-  printf("Uso: %s <valor1, valor2,...>\n", nom_prog);
+  printf("Uso: %s <valor1 valor2 ...>\n", nom_prog);
   exit(1);
 }
 
