@@ -109,9 +109,9 @@ void imprimir_uso(char *nom_prog)
 void liberar_memoria(struct t_nodo *nodo)
 {
   if (!nodo) return;
-  free(nodo);
   if (nodo->fillo1) liberar_memoria(nodo->fillo1);
   if (nodo->fillo2) liberar_memoria(nodo->fillo2);
+  free(nodo);
 }
 
 int main(int argc, char *argv[])
